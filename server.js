@@ -24,5 +24,5 @@ var server = http.createServer(function(request, response) {
     });
 
 }).listen(port);
-
+require('./connect');
 console.log("Server is listening");
